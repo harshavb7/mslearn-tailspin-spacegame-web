@@ -1,6 +1,6 @@
 resources:
   pipelines:
-  - pipeline: javalib   # Name of the pipeline resource
+  - pipeline: "Space Game - web - Multistage: harshavb7.pipelines-javascript"
     source: "Space Game - web - Multistage: harshavb7.pipelines-javascript"
     trigger: 
       branches:
