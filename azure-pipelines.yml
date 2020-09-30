@@ -1,3 +1,12 @@
+resources:
+  pipelines:
+  - pipeline: javalib   # Name of the pipeline resource
+    source: "Space Game - web - Multistage: harshavb7.pipelines-javascript"
+    trigger: 
+      branches:
+      - releases/*
+      - master
+
 trigger:
 - '*'
 
