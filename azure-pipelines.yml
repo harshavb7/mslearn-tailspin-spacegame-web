@@ -1,6 +1,6 @@
 resources:
   pipelines:
-  - pipeline: "Space Game - web - Multistage: harshavb7.pipelines-javascript"
+  - pipeline: javalibh2
     source: "Space Game - web - Multistage: harshavb7.pipelines-javascript"
     trigger: 
       branches:
